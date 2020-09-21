@@ -52,6 +52,10 @@
     width:100%
 }
 
+.author-text {
+    margin-top: 50px;
+}
+
 @media(min-width: 751px) {
     .article-author-layout {
         grid-area: 2/1/4/2;
@@ -92,5 +96,6 @@
     .author-text {
         margin-left: 20px;
         margin-right: 20px;
+        margin-top: 0;
     }
 }
