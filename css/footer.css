@@ -1,0 +1,40 @@
+.site-footer {
+    grid-area: 4/1/5/2;
+    display: flex;
+    flex-direction: column;
+    background-color: #006;
+    color: white;
+    height: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.fab {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media(min-width: 1051px) {
+    .site-footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #footer-2nd-line {
+        margin-left: 7px;
+    }
+
+    #footer-3rd-line {
+        margin-left: 7px;
+    }
+
+    .social-icons {
+        margin-left: 20px;
+    }
+}

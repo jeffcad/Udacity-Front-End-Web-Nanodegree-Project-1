@@ -1,0 +1,10 @@
+@import "basic-setup.css";
+@import "header.css";
+@import "article-author.css";
+@import "footer.css";
+
+.container-post {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: 100%;
+}
