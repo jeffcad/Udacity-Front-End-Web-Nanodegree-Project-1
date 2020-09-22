@@ -37,6 +37,8 @@
     font-size: small;
     font-weight: bold;
     transition-duration: 0.4s;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .nav-button:active {
